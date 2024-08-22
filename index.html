@@ -1,38 +1,84 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Malik Karmi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malik Karmi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Malik Karmi Portfolio</h1>
-    <h2>I'm a Web Developer</h2>
-    <hr/>
-    <h3><a href="./public/movie-ranking.html">Movie Ranking Project</a></h3>
-    <img src="./assets/images/movie-rankingMalik.png" height="200" alt="Movie Ranking"/>
-   <h3><a href="./public/birthday-invite.html">Birthday Invite Project</a></h3> 
-    <img src="./assets/images/BirthdayMalik.png" height="200" alt="Birthday Project"/>
-    <hr/>
-    <p>
-         <a href="./public/about.html">About Me</a>
-        <a href="./public/contact.html">Contact Me</a>
-    </p>
-   
-    
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>MALIK KARMI</h1>
+            <p>Software Engineer</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Results-driven Software Engineer with [3] years of experience in designing, developing,
+            and deploying high-quality software solutions. Proficient in a range of programming languages including C/C++ ,JavaScript , and Python,
+            with a strong background in full-stack development and cloud computing. 
+            Skilled in applying Agile methodologies to deliver scalable and efficient software within tight deadlines.
+            Adept at problem-solving and optimizing system performance through meticulous code analysis and debugging.
+            A collaborative team player with excellent communication skills,
+            dedicated to continuous learning and staying up-to-date with industry trends. 
+            Committed to driving innovation and delivering impactful solutions that meet and exceed business objectives.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project-item" style="--i:1;">
+                <h3>Project 1</h3>
+                <p>to do description of Project 1.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item" style="--i:2;">
+                <h3>Project 2</h3>
+                <p>to do description of Project 2.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project-item" style="--i:3;">
+                <h3>Project 3</h3>
+                <p>to do description of Project 2.</p>
+                <a href="#">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-list">
+            <div class="contact-item">
+                <a href="https://www.linkedin.com/in/malik-karmi-896b8621a/" target="_blank">
+                    <img src="assets/images/LI-In-Bug.png" alt="LinkedIn">
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+            <div class="contact-item">
+                <a href="mailto:malikkarmi22@gmail.com">
+                    <img src="assets/images/Gmail.png" alt="Gmail">
+                    <span>malikkarmi22@gmail.com</span>
+                </a>
+            </div>
+            <div class="contact-item">
+                <img src="assets/images/phone-call.png" alt="Phone">
+                <span>+972 547897427</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Malik Karmi. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
-
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
