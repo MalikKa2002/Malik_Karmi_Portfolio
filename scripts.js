@@ -3,9 +3,20 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
+        const href = this.getAttribute('href');
+        
+        // Ensure href is not just '#'
+        if (href.length > 1) {
+            const target = document.querySelector(href);
+
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            } else {
+                console.warn(`Invalid selector: ${href}`);
+            }
+        }
     });
 });
 
@@ -23,4 +34,9 @@ const observer = new IntersectionObserver(entries => {
 
 animatedElements.forEach(element => {
     observer.observe(element);
+});
+
+// Scroll to the top of the page on load
+window.addEventListener('load', () => {
+    window.scrollTo(0, 0);
 });
