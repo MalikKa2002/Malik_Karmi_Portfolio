@@ -15,7 +15,7 @@ body {
 
 /* Header / Hero Section */
 header.hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/bcimage.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/images/bcimage4.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
