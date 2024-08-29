@@ -29,12 +29,14 @@ header.hero {
 .hero-content h1 {
     font-size: 4.5rem;
     text-transform: uppercase;
+    font-family: serif;
     letter-spacing: 4px;
     animation: fadeInDown 1.5s ease-in-out;
 }
 
 .hero-content p {
-    font-size: 1.7rem;
+    font-size: 2.5rem;
+    font-family: serif;
     margin-top: 15px;
     animation: fadeInUp 2s ease-in-out;
 }
